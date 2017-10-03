@@ -1,0 +1,34 @@
+.preview {
+    height:60px;
+    line-height:20px; /* Height / no. of lines to display */
+    overflow:hidden;
+}
+
+.inline-home {
+    display: inline-block;
+}
+
+.simple-list {
+    padding: 0px;
+    list-style: none;
+    li {
+        margin: 1%;
+    }
+}
+
+.home-section {
+    width: 100%;
+    height: 420px;
+    overflow: scroll;
+    text-align: center;
+    display: inline-block;
+    .rubix-panel-container {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.rubix-panel-container {
+    padding: 10px;
+    margin: 10px;
+}

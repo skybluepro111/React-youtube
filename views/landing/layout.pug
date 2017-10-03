@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Interprétame
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='Improve yourself!')
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    // Plugins CSS
+    link(rel='stylesheet', href='./vendors/font-awesome/css/font-awesome.min.css')
+    link(rel='stylesheet', href='./vendors/pe-icon-7-stroke/css/pe-icon-7-stroke.css')
+    link(rel='stylesheet', href='./vendors/animate-css/animate.min.css')
+    link(rel='stylesheet', href='./css/landing/custom.css')
+    link(rel='stylesheet', href='./css/common.css')
+    link(href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet")
+
+    // Theme CSS
+    link#theme-style(rel='stylesheet', href='./css/landing/styles.css')
+    // custom css
+    link(rel='stylesheet', href='//use.edgefonts.net/c/060efa/1w;andika,2,WWQ:W:n4/l', media='all')
+    script(src='//apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.es.qkvr6zpVk4o.O/m=auth2/exm=analytics,client/rt=j/sv=1/d=1/ed=1/am=EQ/rs=AGLTcCOJb67ueiG_Frc3deda0MQgx7erow/cb=gapi.loaded_2', async='')
+    script(src='//apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.es.qkvr6zpVk4o.O/m=client/exm=analytics/rt=j/sv=1/d=1/ed=1/am=EQ/rs=AGLTcCOJb67ueiG_Frc3deda0MQgx7erow/cb=gapi.loaded_1', async='')
+    script(src='//apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.es.qkvr6zpVk4o.O/m=analytics/rt=j/sv=1/d=1/ed=1/am=EQ/rs=AGLTcCOJb67ueiG_Frc3deda0MQgx7erow/cb=gapi.loaded_0', async='')
+    script(src='//apis.google.com/js/platform.js', gapi_processed='true')
+    script(async='', src='//www.google-analytics.com/analytics.js')
+    script(src='//use.edgefonts.net/andika.js')
+    link(rel='stylesheet', href='//use.edgefonts.net/c/a05952/1w;arvo,2,WXF:W:i4,WXC:W:i7,WXB:W:n4,WXD:W:n7/l', media='all')
+    script(src='//use.edgefonts.net/arvo.js')
+    style.
+      .gapi-analytics-data-chart .google-visualization-table{border:0;z-index:0}.gapi-analytics-data-chart .google-visualization-table-table{background:#fff;border-collapse:collapse;border-spacing:0;font:inherit;cursor:default;width:100%!important}.gapi-analytics-data-chart .google-visualization-table-table *{font:inherit;vertical-align:inherit}.gapi-analytics-data-chart .google-visualization-table-sortind{color:silver;display:inline-block;font:1em/0 Arial,sans-serif;margin:0 0 0 .5em;padding:0}.gapi-analytics-data-chart .google-visualization-table-td-bool,.gapi-analytics-data-chart .google-visualization-table-td-center,.gapi-analytics-data-chart .google-visualization-table-td-number{text-align:right}.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-tr-odd{background:#f8f8f8}.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-tr-over{background-color:#f0f0f0}.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-tr-sel{background-color:#ffffc0}.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-tr-even:last-child,.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-tr-odd:last-child{border-bottom:1px solid #e8e8e8}.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-th{border:0;border-bottom:1px solid #a8a8a8;font-weight:700;padding:.6em 1em;text-align:left;white-space:nowrap}.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-td{border:0;border-left:1px solid #e8e8e8;padding:.6em 1em}.gapi-analytics-data-chart .gapi-analytics-data-chart-styles-table-td:first-child{border-left:0}
+  body
+  
+    block content
+
+    script(type='text/javascript', src='./vendors/jquery-1.12.3.min.js')
+    script(type='text/javascript', src='./vendors/bootstrap/js/bootstrap.min.js')
+    script(type='text/javascript', src='./vendors/jquery-scrollTo/jquery.scrollTo.min.js')
+    script(type='text/javascript', src='./vendors/jquery-match-height/jquery.matchHeight-min.js')
+    script(type='text/javascript', src='./vendors/jquery.validate.min.js')
+    script(type='text/javascript', src='./vendors/jquery-inview/jquery.inview.min.js')
+    script(type='text/javascript', src='./vendors/isMobile/isMobile.min.js')
+    script(type='text/javascript', src='./vendors/back-to-top.js')
+    script(type='text/javascript', src='./js/landing/main.js')
+    // if !IE
+    script(type='text/javascript', src='./js/landing/animations.js')
+    // Google Analytics
+    script(type='text/javascript', src='./js/ga.js')
+
+    script.
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+    #topcontrol.opacity(title='Scroll Back to Top', style='position: fixed; bottom: 5px; right: 5px; cursor: pointer;')
+      i.fa.fa-angle-up

@@ -1,0 +1,28 @@
+nav#mainNav.navbar.navbar-default.navbar-fixed-top
+    include ../notifications.pug
+    .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header(style='width:device-width')
+            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            a.navbar-brand.page-scroll(href='#')
+                img#logo
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav.navbar-right
+                li.guide(style='background: gold;')
+                    a(href='/wiki/tutorial' style='color: black;' target='_blank') #{__('LANDING.GUIDE')}
+                li
+                    a.page-scroll(style='color:#f05f40', href='/login') #{__('LANDING.ENTER')}
+                // end ngIf: !user._id
+                li.about-menu
+                    a(href='//forums.interpretame.com/') #{__('LANDING.FORUM')}
+                li.about-menu
+                    a(href='/lang/en', style='padding: 12%') 
+                        img(src='/imgs/flag/en.png' style="width: 35px;")
+                li.about-menu
+                    a(href='/lang/es', style='padding: 12%')
+                        img(src='/imgs/flag/es.png' style="width: 35px;")

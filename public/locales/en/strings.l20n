@@ -1,0 +1,18 @@
+<language 'Language'>
+<sidebarDash 'Home'>
+<sidebarWiki 'Wiki'>
+<sidebarSlack 'Slack'>
+<sidebarLogout 'Logout'>
+<sidebarForumAdmin 'Forum (admin)'>
+<sidebarSettings 'Profile'>
+<sidebarForum 'Forum'>
+<sidebarDiscovery 'Discovery'>
+<sidebarPrets 'My Prets'>
+<sidebarNewPret 'New Pret'>
+<sidebarInfer 'Inference'>
+<sidebarExps 'Expressions'>
+<sidebarContact 'Contact'>
+<sidebarAbout 'About us'>
+<sidebarAudio 'Audio guide'>
+<sidebarPretsFeedback 'Feedback'>
+<sidebarPretsChallenge 'Challenge'>

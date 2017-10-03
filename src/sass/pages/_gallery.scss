@@ -1,0 +1,147 @@
+.gallery-view {
+  padding-right: $line-height-computed;
+}
+
+.gallery-item {
+  .black-wrapper {
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    background: #000;
+    left: 0; right: 0;
+    position: absolute;
+    transition: all 0.25s ease;
+
+    td {
+      vertical-align: middle;
+    }
+
+    .rubix-icon {
+      color: white;
+      display: block;
+    }
+  }
+  .audio {
+    padding: 2%;
+    white-space: nowrap;
+  }
+}
+
+.gallery-item-link {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding: 0 !important;
+  border: none !important;
+
+  &:hover, &:focus {
+    .black-wrapper {
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.fav-btn {
+  >.rubix-icon {
+    font-size: 20px !important;
+    line-height: 20px !important;
+  }
+
+  >.counts {
+    top: -6px;
+    line-height: 0;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle !important;
+  }
+}
+
+.mark-banner {
+  left: 0px;
+  position: relative;
+  width: 90%;
+  border-radius: 3px;
+}
+
+
+
+.pret-btn {
+  width: 14%;
+  border: none;
+  color: white;
+  margin: 1%;
+  border-radius: 4px;
+  &.green:hover {
+      background: green;
+  }
+  &.red:hover {
+      background: red;
+  }
+  &.blue:hover {
+      background: blue;
+  }
+  &.purple:hover {
+      background: purple;
+  }
+}
+
+.checker {
+    width: 77px;
+    display: inline-block;
+}
+
+.checkerDrop {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    .control-label {
+        width: 80%;
+    }
+    .form-control {
+        width: 20%;
+    }
+    .control-label, .form-control {
+        display: inline-block;
+    }
+}
+
+textarea {
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid rgba(59, 59, 70, 0.25);
+    border-radius: 5px;
+}
+
+legend.info {
+    background: aquamarine;
+    width: 100%;
+    text-align: center;
+}
+
+audio {
+    width: 90%;
+}
+
+.feedback {
+  background: salmon;
+}
+
+.challenge {
+  background: skyblue;
+}
+
+.gallery-item {
+  max-width: 400px;
+}
+
+.pret-btn.btn.btn-outlined {
+    padding: 3px 15px 2px 11px;
+}
+
+.btn-default.btn-outlined.btn-onlyOnHover.checked {
+    color: firebrick;
+}

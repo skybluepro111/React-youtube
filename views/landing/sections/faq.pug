@@ -1,0 +1,35 @@
+section#faq.section.faq-section.bg-gradient
+    .container
+        h2.section-title.text-center.opacity F.A.Q
+        .row
+            .col-xs-12.col-sm-6
+                .panel
+                    .panel-heading
+                        h4.panel-title
+                            a.panel-toggle(data-parent='#accordion', data-toggle='collapse', href='#faq1')
+                                i.fa.fa-question-circle
+                                | #{__('LANDING.FAQ_1.TITLE')}
+                    #faq1.panel-collapse.collapse
+                        .panel-body #{__('LANDING.FAQ_1.DESC')}
+
+                .panel
+                    .panel-heading
+                        h4.panel-title
+                            a.panel-toggle(data-parent='#accordion', data-toggle='collapse', href='#faq2')
+                                i.fa.fa-question-circle
+                                | #{__('LANDING.FAQ_2.TITLE')}
+                    #faq2.panel-collapse.collapse
+                        .panel-body #{__('LANDING.FAQ_2.DESC')}
+
+            .col-xs-12.col-sm-6
+                .panel
+                    .panel-heading
+                        h4.panel-title
+                            a.panel-toggle(data-parent='#accordion', data-toggle='collapse', href='#faq3')
+                                i.fa.fa-question-circle
+                                | #{__('LANDING.FAQ_3.TITLE')}
+                    #faq3.panel-collapse.collapse
+                        .panel-body
+                            | #{__('LANDING.FAQ_3.DESC')}
+                            br
+                            | #{__('LANDING.FAQ_3.SLOGAN')}

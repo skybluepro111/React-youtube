@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .container.login
+    .row
+      .col-md-6.col-md-offset-6
+        .panel.panel-default
+          .panel-body
+            | Thank you for signup, check your email to activate the account!
+
+  script.
+      setTimeout(function(){ window.location.href = "/"; }, 3000);

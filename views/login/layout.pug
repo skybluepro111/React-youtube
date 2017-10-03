@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    title Interpretame
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css')
+
+    style.
+      img#logo {
+          width: auto;
+          content: url(/imgs/logo.png);
+          height: 42px;
+          margin-top: -11px;
+      }
+      body { 
+        background: url('/imgs/app/login.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .panel-default {
+        opacity: 0.9;
+        margin-top:30px;
+      }
+      .form-group.last { margin-bottom:0px; }
+      .error {
+        background: darksalmon;
+        color: brown;
+        font-weight: bold;
+      }
+      footer {
+        position: absolute;
+        bottom: 0px;
+        background: white;
+        width: 100%;
+        background-color: whitesmoke;
+        padding: 20px 10% 10px 10%;
+        color: #36435A;
+        border-bottom-right-radius: 6px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 6px;
+      }
+
+      @media (max-width: 767px) {
+          footer {
+            position: relative;
+          }
+      }
+
+  body
+    block content
+    include ../landing/footer.pug

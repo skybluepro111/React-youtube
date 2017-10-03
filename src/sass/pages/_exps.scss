@@ -1,0 +1,26 @@
+.dropdown-limit {
+    ul {
+        height: 100px;
+        overflow: scroll;
+    }
+}
+
+.margin_10 {
+    margin: 10px;
+}
+
+._right {
+    .Select-value {
+        right: initial;
+        text-align: left;
+    }
+}
+
+.expTable {
+    width: 80%;
+    border: 1px solid coral;
+    padding: 1%;
+    margin: auto auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

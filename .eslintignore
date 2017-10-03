@@ -1,0 +1,11 @@
+# /node_modules/* and /bower_components/* ignored by default
+
+# Ignore following folders
+public/
+locales/
+sass/
+static_pages/
+test/
+tmp/
+tools/
+views/

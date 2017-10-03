@@ -1,0 +1,7 @@
+{
+  "SLACK_JOIN": "Beitreten",
+  "SLACK_HEADER": "Oder gib deine E-Mail Adresse an, um %s auf Slack beizutreten!",
+  "SLACK_ENTER_EMAIL": "Deine E-Mail Adresse",
+  "SLACK_ENTER_TOKEN": "Gib deinen Zugangscode an",
+  "SLACK_TITLE": "Tritt %s auf Slack bei!"
+}

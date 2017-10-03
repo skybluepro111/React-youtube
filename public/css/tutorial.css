@@ -1,0 +1,25 @@
+body {
+    overflow: hidden;
+    background-image: url(http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+    min-height: 700px;
+}
+
+.container-intro {
+    margin: 5% 20%;
+    padding: 1%;
+    background: white;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+}

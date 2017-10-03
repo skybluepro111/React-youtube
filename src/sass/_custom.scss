@@ -1,0 +1,143 @@
+.btn-material {
+    margin: 1%;
+    float: right;
+    display: block;
+    position: relative;
+    vertical-align: bottom;
+    margin-top: 50%;
+    bottom: 1px;
+    height: 40px;
+    &.add:before {
+        content: '+';
+    }
+    &.prev:before {
+        content: '<';
+    }
+    &.next:before {
+        content: '>';
+    }
+    &.train {
+        float: left;
+        margin-top: 10px;
+    }
+    &.exp {
+        margin-top: 30%;
+    }
+    &.prev, &.next {
+      width: 100px;
+      height: 45px;
+      box-shadow: 5px 5px 5px #484747;
+      margin-top: 5px;
+      z-index: 999;
+    }
+    &.prev {
+      float: left;
+    }
+}
+
+.todo-item {
+  border-bottom: 1px solid #eee;
+
+  button {
+    display: none;
+    margin-top: 8px;
+  }
+
+  &:hover {
+    background: rgb(254, 254, 244);
+
+    button {
+      display: inline-block;
+    }
+  }
+}
+
+.forums {
+  #section {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+#header-container {
+  margin-left: 250px;
+  z-index: 101;
+  #header {
+    padding: 10px;
+    position: relative;
+    color: #CCD6DF;
+    background: brown;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+  } 
+}
+
+html.default body #sidebar+#body {
+  padding-top: 0;
+  padding-bottom: 0; 
+}
+
+#body {
+  padding: 10px;
+}
+
+@media (max-width: $screen-xs-max) {
+  .todo-item {
+    .text-right {
+      display: none;
+    }
+  }
+  .todo-item:hover {
+    .text-right {
+      display: block;
+      text-align: center;
+      margin-bottom: 12.5px;
+    }
+  }
+}
+
+#logo {
+  top: -25px !important;
+  width: 75px;
+  height: auto;
+}
+
+#rubix-nav-header {
+  visibility: hidden;
+  display: none;
+}
+
+#navbar ~ #sidebar {
+  top: 0px !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+html.default body #sidebar ~ #footer-container.compress {
+  margin-left: 84px;
+}
+
+input {
+	width: 500px;
+	margin: auto auto;
+	padding: 10px;
+	border: 2px solid #b3b0b0;
+	border-radius: 10px; 
+	display: block;
+}
+
+.audioBox {
+    display: block;
+    width: 500px;
+    margin: auto auto;
+    text-align: center;
+}
+
+.countdown {
+  canvas:first-child {
+    position: relative !important;
+  }
+}

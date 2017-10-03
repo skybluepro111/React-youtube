@@ -1,0 +1,7 @@
+{
+  "SLACK_JOIN": "Rejoignez",
+  "SLACK_HEADER": "Entrez votre adresse mail pour rejoindre le groupe %s sur Slack!",
+  "SLACK_ENTER_EMAIL": "Entrez votre adresse mail",
+  "SLACK_ENTER_TOKEN": "Entrez votre token d'invitation",
+  "SLACK_TITLE": "Rejoignez le groupe %s sur Slack!"
+}

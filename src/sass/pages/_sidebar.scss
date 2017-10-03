@@ -1,0 +1,48 @@
+#logo-section {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.languageSelector a img {
+    margin: 2%;
+}
+.languageSelector a.active img {
+    border: 2px solid white;
+    border-radius: 16px;
+}
+html.default body #sidebar #sidebar_container {
+    top: 165px;
+}
+
+html.default body #rubix-nav-header .navbar-brand {
+    background: aliceblue;
+}
+#avatar {
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+}
+// html.default body #sidebar {
+//     background: aliceblue;
+// }
+// .sidebar span {
+//     color: black;
+// }
+.sidebar-toggle {
+    display: block;
+    background: aliceblue;
+    position: absolute;
+    padding: 8px 15px;
+    top: -1px;
+    z-index: 1;
+    cursor: pointer;
+}
+html.default body #navbar ~ #sidebar.compress {
+    width: 84px;
+    .sidebar-header, li a span.name, #avatar-col, .sidebar-search {
+        display: none;
+    }
+    #sidebar_container .sidebar {
+        width: 84px;
+    }
+}

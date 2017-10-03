@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+  #rubix-nav-header {
+    visibility: visible;
+    display: block;
+  }
+  #navbar ~ #sidebar, body {
+    top: 75px !important;
+  }
+  .wordcloud__cloud > svg {
+      width: 100% !important;
+  }
+  .search-term, .ReactTags__tagInput > input {
+    padding: 2%;
+    margin: 20% 0;
+    border: solid 2px black;
+  }
+  .video-detail-container, .video-detail {
+      padding: 0;
+      margin: 0;
+  }
+  .video-desc, .sidebar-toggle {
+      display: none;
+  }
+  .list-group-item {
+    border: none;
+    margin: 6% 0;
+  }
+  .wizard {
+      padding: 0;
+  }
+
+  .audioBox > audio {
+      margin-left: -45px;
+  }
+  .gallery-view {
+      padding: 0;
+  }
+
+  .gallery-view audio {
+      width: 90%;
+  }
+  
+    .btn-material.exp {
+        margin-top: 2%;
+        width: 99%;
+    }
+
+    .btn-material.train {
+        width: 99%;
+        margin-top: 30px;
+    }
+ 
+}

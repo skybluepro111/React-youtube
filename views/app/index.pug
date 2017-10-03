@@ -1,0 +1,32 @@
+extends ./layout.pug
+
+//- optional (PACE loader)
+block pace-loader
+  link(rel='stylesheet' href='/css/pace.css')
+  script(type='text/javascript', src='/bower_components/PACE/pace.min.js')
+
+block header
+  link(rel="stylesheet" href="https://unpkg.com/react-select/dist/react-select.css")
+  script(type='text/javascript', src='/js/audio/OggVorbisEncoder.min.js')
+  != app_stylesheets
+
+block content
+  div#app-container!= content
+
+  div#blueimp-gallery.blueimp-gallery.blueimp-gallery-controls
+    div.slides
+    h3.title
+    p.description
+    a.prev ‹
+    a.next ›
+    a.close ×
+    a.play-pause
+    ol.indicator
+
+block scripts
+  script(type='text/javascript', src='/js/ga.js')
+  script.
+    OggVorbisEncoderConfig = { memoryInitializerPrefixURL: "js/audio/" };
+  != app_scripts
+
+block stylesheets

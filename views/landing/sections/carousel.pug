@@ -1,0 +1,37 @@
+header
+    .col-md-12.col-lg-7
+        #frameWrapper
+            #myCarousel.carousel.slide.carousel-fade(data-ride='carousel', style='height: 100%')
+                // Indicators
+                ol.carousel-indicators
+                    li.active(data-target='#myCarousel', data-slide-to='0')
+                    li(data-target='#myCarousel', data-slide-to='1')
+                    li(data-target='#myCarousel', data-slide-to='2')
+                    li(data-target='#myCarousel', data-slide-to='3')
+                    li(data-target='#myCarousel', data-slide-to='4')
+                    li(data-target='#myCarousel', data-slide-to='5')
+                // Wrapper for slides
+                .carousel-inner
+                    .item.active
+                        img(src='/imgs/landing/f0.png', alt='Los Angeles')
+                    .item
+                        img(src='/imgs/landing/f1.png', alt='Los Angeles')
+                    .item
+                        img(src='/imgs/landing/f2.png', alt='Los Angeles')
+                    .item
+                        img(src='/imgs/landing/f3.png', alt='Los Angeles')
+                    .item
+                        img(src='/imgs/landing/f4.png', alt='Los Angeles')
+                    .item
+                        img(src='/imgs/landing/f5.png', alt='Los Angeles')
+                // Left and right controls
+                a.left.carousel-control(href='#myCarousel', data-slide='prev')
+                    span.glyphicon.glyphicon-chevron-left
+                    span.sr-only Previous
+                a.right.carousel-control(href='#myCarousel', data-slide='next')
+                    span.glyphicon.glyphicon-chevron-right
+                    span.sr-only Next
+    .col-md-12.col-lg-5(style='padding: 9% 5%')  
+        h1(style='color: midnightblue;font-weight: bold;') #{__('LANDING.DESC_1')}
+        h2(style='color: royalblue;') #{__('LANDING.DESC_2')}
+        h3(style='color: slategray;font-style: italic;') #{__('LANDING.DESC_3')}

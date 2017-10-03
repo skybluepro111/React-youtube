@@ -1,0 +1,27 @@
+#body.posts {
+  .rubix-panel-container {
+    padding: 10px
+  }
+}
+
+html.social body .sidebar-nav > li.active:after {
+  display: none !important;
+}
+.social-desc {
+  padding: 2%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.social-avatar {
+  top: 0;
+  bottom: 0;
+}
+.social-like-count {
+  cursor: pointer;
+  display: inline-block;
+
+  >span {
+    margin-left: $line-height-computed;
+  }
+}
